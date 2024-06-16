@@ -1,3 +1,0 @@
-/home/marssiii/Files/CppProjects/Lab_ITMO/Cubik_Rubick/build/CMakeFiles/CubikRubik.dir
-/home/marssiii/Files/CppProjects/Lab_ITMO/Cubik_Rubick/build/CMakeFiles/edit_cache.dir
-/home/marssiii/Files/CppProjects/Lab_ITMO/Cubik_Rubick/build/CMakeFiles/rebuild_cache.dir
