@@ -13,7 +13,7 @@ class CircularBuffer {
   size_t m_Size;
   size_t m_Capacity;
 
-  Alloc m_Alloc;
+  [[no_unique_address]]Alloc m_Alloc;
   using m_AllocTraits = std::allocator_traits<Alloc>;
 
   T *m_Arr;
@@ -66,7 +66,7 @@ class CircularBuffer {
   // container methods
   size_t Size() const;
   size_t Capacity() const;
-  bool Empty() const;
+  [[nodiscard]]bool Empty() const;
   void ShowBuffer() const;
 
   void reserve(size_t NewCap);
